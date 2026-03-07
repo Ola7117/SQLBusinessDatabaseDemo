@@ -38,13 +38,3 @@ FROM ORDERS O
 CROSS JOIN Months M
 WHERE O.StartMonth <= M.Month AND O.EndMonth >= M.Month
 GROUP BY 1;
-
--- UNION
-
-SELECT *
-FROM Customers
-WHERE Id <= 3
-UNION
-SELECT *
-FROM CUSTOMERS
-WHERE Id >= 8
