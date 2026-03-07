@@ -34,16 +34,13 @@ SELECT *
 FROM Customers
 WHERE Age != 25;
 
--- Exercise 1
 SELECT * 
 FROM Customers
 ORDER BY Age DESC;
 
--- Exercise 2
 SELECT DISTINCT Age
 FROM Customers;
 
--- Exercise 3
 SELECT *
 FROM Customers
 WHERE Age <= 25;
