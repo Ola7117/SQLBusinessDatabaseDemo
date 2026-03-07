@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS Actors;
+
 CREATE TABLE Actors(
 	Id INTEGER,
 	Name TEXT,
